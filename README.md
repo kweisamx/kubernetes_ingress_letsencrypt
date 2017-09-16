@@ -1,6 +1,6 @@
 # kubernetes_ingress_letsencrypt
 
-
+![](https://i.imgur.com/bbCz37T.png)
 ## 申請Domain Name
 首先就是申請一個你要的網域, 這邊網路上資源很多都可以查一下哪個網域商或是一些相關的建議,這邊我就先不去多做介紹了,文章中會以sam.nctu.me來作範例
 

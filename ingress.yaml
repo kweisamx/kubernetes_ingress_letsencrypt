@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: nginx-ingress
+spec:
+  tls:
+    - hosts:
+      - XXX.nctu.me
+      secretName: tls-certs
+  rules:
+  - host: XXX.nctu.me
+    http:
+      paths:
+        - backend:
+            serviceName: phpmyadmin
+            servicePort: 80
